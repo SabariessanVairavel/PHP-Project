@@ -1,0 +1,14 @@
+#login-body {
+    position: absolute;
+    background-image: url("images/bgimage.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#body-div{
+    left: 35%;
+    position: absolute;
+    top: 12%;
+}

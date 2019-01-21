@@ -1,0 +1,48 @@
+.dashboard-span{
+position: absolute;
+    top: 3%;
+    left: 20%;
+    color: antiquewhite;
+	}
+	
+#logo{
+	position: absolute;
+    font-size: 2rem;
+    font-family: initial;
+    color: rgb(173, 80, 167);
+}
+#div-1{
+	    position: absolute;
+    height: 54%;
+    width: 71%;
+    background-color: white;
+    left: 25.5%;
+    border-radius: 10px;
+}
+
+#div-2{
+	    position: absolute;
+    height: 54%;
+    width: 71%;
+    background-color: white;
+    left: 25.5%;
+    border-radius: 10px;
+}
+
+#div-3{
+	    position: absolute;
+    height: 54%;
+    width: 71%;
+    background-color: white;
+    left: 25.5%;
+    border-radius: 10px;
+}
+
+#div-4{
+	    position: absolute;
+    height: 54%;
+    width: 71%;
+    background-color: white;
+    left: 25.5%;
+    border-radius: 10px;
+}
