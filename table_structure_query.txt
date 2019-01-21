@@ -1,0 +1,35 @@
+
+user_details :
+
+CREATE TABLE `user_details` (
+ `user_id` bigint(20) NOT NULL AUTO_INCREMENT,
+ `password` varchar(100) NOT NULL,
+ `mail_id` varchar(20) NOT NULL,
+ `birth_day` date NOT NULL,
+ `gender` varchar(20) NOT NULL,
+ `company_name` text NOT NULL,
+ `first_name` varchar(30) NOT NULL,
+ `last_name` varchar(30) NOT NULL,
+ `address` text NOT NULL,
+ `mobile_number` varchar(20) NOT NULL,
+ `offerer` int(1) NOT NULL,
+ UNIQUE KEY `user_id` (`user_id`,`mobile_number`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1
+
+
+vechile_details:
+
+CREATE TABLE `vechile_details` (
+ `mobile_no` varchar(30) NOT NULL,
+ `vehicle_type` varchar(20) NOT NULL,
+ `vehicle_no` varchar(30) NOT NULL,
+ `bike_model` varchar(30) DEFAULT NULL,
+ `car_model` varchar(30) DEFAULT NULL,
+ `car_type` varchar(20) DEFAULT NULL,
+ `license_no` varchar(30) NOT NULL,
+ PRIMARY KEY (`mobile_no`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+
+use this query to create our tables in your local mysql server.
